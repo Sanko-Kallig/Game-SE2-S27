@@ -15,6 +15,14 @@ namespace TheWalkingZ
 
         public Point GoalPosition { get; set; }
 
+        public Map(string name, Size cellSize, Size cellCount, Point goalPosition)
+        {
+            this.Name = name;
+            this.CellSize = cellSize;
+            this.CellCount = cellCount;
+            this.GoalPosition = goalPosition;
+        }
+
         public void draw (Graphics g)
         {
             throw new NotImplementedException();

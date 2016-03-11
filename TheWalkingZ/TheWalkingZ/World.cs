@@ -15,12 +15,17 @@ namespace TheWalkingZ
 
         Player CurrentPlayer { get; set; }
 
+        public World()
+        {
+
+        }
+
         public void Update()
         {
             throw new NotImplementedException();
         }
 
-        public void draw(Graphics g)
+        public void Draw(Graphics g)
         {
             throw new NotImplementedException();
         }

@@ -8,5 +8,8 @@ namespace TheWalkingZ
 {
     public enum CellType
     {
+        Normal,
+        Goal,
+        Wall
     }
 }

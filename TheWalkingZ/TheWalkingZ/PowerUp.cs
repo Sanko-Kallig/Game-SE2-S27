@@ -8,5 +8,11 @@ namespace TheWalkingZ
 {
     public class PowerUp
     {
+        public string Name { get; set; }
+
+        public PowerUp(string name)
+        {
+            this.Name = name;
+        }
     }
 }
