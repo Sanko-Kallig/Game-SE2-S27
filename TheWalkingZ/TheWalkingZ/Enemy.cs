@@ -12,6 +12,8 @@ namespace TheWalkingZ
         public Point Position { get; set;}
         public int HitPoints { get; set; }
 
+        public Cell CurrentCell { get; set; }
+
         public Enemy(Point position, int hitPoints)
         {
             this.Position = position;

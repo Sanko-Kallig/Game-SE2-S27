@@ -11,6 +11,7 @@ namespace TheWalkingZ
     {
         public Point Position { get; set; }
         public PowerUp ActivePowerUp { get; set; }
+        public Cell CurrentCell { get; set; }
         public int HitPoints { get; set; }
 
         public void Update()
